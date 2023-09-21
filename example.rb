@@ -11,12 +11,12 @@ module CallTools
   #
   # @author Sergey Blohin (sblohin@yandex.ru)
   #
-  # @see https://calltools.ru/
-  # @see https://calltools.ru/guide_api/
-  # @see https://calltools.ru/lk/audioclips/all-speakers/
-  # @see https://calltools.ru/lk/pages/synth-valid-text/
-  # @see https://calltools.ru/lk/phones/all/
-  # @see https://calltools.ru/lk/users/profile/
+  # @see https://zvonok.com/
+  # @see https://zvonok.com/ru-ru/guide/guide_api/
+  # @see https://zvonok.com/manager/audioclips/all-speakers/
+  # @see https://zvonok.com/manager/pages/synth-valid-text/
+  # @see https://zvonok.com/manager/phones/all/
+  # @see https://zvonok.com/manager/users/profile/
   #
   # @example
   #   api_public_key = 'a1d7352426832e77c2a9f55e01106f1a'
@@ -44,7 +44,7 @@ module CallTools
     public_constant :API_VERSION
 
     # Base URL
-    BASE_URL = "https://calltools.ru/lk/cabapi_external/api/#{API_VERSION}".freeze
+    BASE_URL = "https://zvonok.com/manager/cabapi_external/api/#{API_VERSION}".freeze
     private_constant :BASE_URL
 
     # HTTP STATUS OK
